@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>六角血拚賣賣</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="/css/custom.css"
+  >
+</head>
+
+<body>
+  <!-- headers -->
+  <nav class="navbar navbar-light bg-light">
+    <a
+      class="navbar-brand"
+      href="index.html"
+    >
+      <i
+        class="fa fa-heart text-info"
+        aria-hidden="true"
+      ></i>
+      六角血拼賣賣
+    </a>
+    <!-- 購物車內的數量 (Button 內包含 icon, 數量 badge) -->
+    <div class="dropdown ml-auto">
+      <button
+        class="btn btn-sm btn-cart"
+        data-toggle="dropdown"
+        data-flip="false"
+      >
+        <i
+          class="fa fa-shopping-cart text-dark fa-2x"
+          aria-hidden="true"
+        ></i>
+        <span class="badge badge-pill badge-danger">0</span>
+        <span class="sr-only">unread messages</span>
+      </button>
+      <div
+        class="dropdown-menu dropdown-menu-right p-3"
+        style="min-width: 300px"
+        data-offset="400"
+      >
+        <div class="px-4 py-3">
+          <h6>沒有商品</h6>
+          <!-- <table class="table table-sm">
+            <tbody>
+              <tr>
+                <td class="align-middle text-center">
+                  <a
+                    href="#removeModal"
+                    class="text-muted"
+                    data-toggle="modal"
+                    data-title="刪除 金牌西裝 1 件"
+                  >
+                    <i
+                      class="fa fa-trash-o"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </td>
+                <td class="align-middle">金牌西裝</td>
+                <td class="align-middle">1 件</td>
+                <td class="align-middle text-right">$520</td>
+              </tr>
+              <tr>
+                <td class="align-middle text-center">
+                  <a
+                    href="#removeModal"
+                    class="text-muted"
+                    data-toggle="modal"
+                    data-title="刪除 金牌女裝 1 件"
+                  >
+                    <i
+                      class="fa fa-trash-o"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </td>
+                <td class="align-middle">金牌女裝</td>
+                <td class="align-middle">1 件</td>
+                <td class="align-middle text-right">$480</td>
+              </tr>
+            </tbody>
+          </table> -->
+          <!-- <a
+            href="shoppingCart-checkout.html"
+            class="btn btn-primary btn-block"
+          >
+            <i
+              class=" "
+              aria-hidden="true"
+            ></i> 結帳去
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- 結帳完成頁 -->
+  <div class="container main-contant py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h1 class="text-center mb-3 text-secondary">六角血拼 結帳完成</h1>
+        <section class="form-row align-items-center text-center">
+          <div class="col">
+            <div
+              class="alert alert-success alert-rounded mb-0"
+              role="alert"
+            >
+              完成
+            </div>
+          </div>
+        </section>
+
+        <h4 class="text-center my-4">購買資訊</h4>
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th width="100"></th>
+              <th>商品名稱</th>
+              <th width="100">數量</th>
+              <th width="80">小計</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-middle">
+                <img
+                  src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                  class="img-thumbnail"
+                  alt=""
+                >
+              </td>
+              <td class="align-middle">金牌西裝</td>
+              <td class="align-middle">1 件</td>
+              <td class="align-middle text-right">$520</td>
+            </tr>
+            <tr>
+              <td
+                colspan="3"
+                class="text-right"
+              >運費</td>
+              <td class="text-right">
+                <strong>$60</strong>
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="3"
+                class="text-right"
+              >合計</td>
+              <td class="text-right">
+                <strong>$580</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <h4 class="text-center my-4">個人資料</h4>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th width="200">Email</th>
+              <td>ag3456***@gmail.com</td>
+            </tr>
+            <tr>
+              <th>姓名 </th>
+              <td>咬 * 手手</td>
+            </tr>
+            <tr>
+              <th>電話 </th>
+              <td>987654***</td>
+            </tr>
+            <tr>
+              <th>地址 </th>
+              <td>重慶南路一段122號</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- 結帳完成頁 -->
+
+
+  <footer class="bg-light text-muted py-5">
+    <div class="container">
+      <ul class="list-inline text-center">
+        <li class="list-inline-item">© Copright 2017 六角血拼賣賣</li>
+        <li class="list-inline-item">
+          <a
+            class="text-info"
+            href="#"
+          >
+            <i class="fab fa-instagram"></i> Instagrame</a>
+        </li>
+        <li class="list-inline-item">
+          <a
+            class="text-info"
+            href="#"
+          >
+            <i class="fab fa-facebook-square"></i> Facebook</a>
+        </li>
+        <li class="list-inline-item">
+          <a
+            class="text-info"
+            href="#"
+          >About</a>
+        </li>
+      </ul>
+      <p class="text-center">Made with Bootstrap4</p>
+    </div>
+  </footer>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
